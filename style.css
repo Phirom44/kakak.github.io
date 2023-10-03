@@ -1,0 +1,119 @@
+
+
+body{
+    background-color:darkturquoise ;  
+}
+img{
+       color: black;
+        display: block;
+        margin-top: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: auto;
+       border-radius:10%;
+       box-shadow: 0px 2px 12px 0px;
+}
+div{
+    
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial  Bold', sans-serif;
+}
+
+h3{
+    font-family: Arial;
+    font-size: 120%;
+}
+button{
+    padding: 14px;
+    font-family: Arial  ;
+    font-size: larger;
+    border-radius: 10px;
+    color: rgb(94, 92, 92);
+    
+}
+
+.Facebook{
+   
+    margin-bottom: 1.2rem;
+    box-shadow: 2px 6px;
+    width: 60%;
+   
+   color: black;
+   
+}
+.Telegram{
+    margin-bottom:  1.2rem;
+    box-shadow: 2px 6px;
+    width: 60%;
+    color: black;
+}
+.teleme{
+    margin-bottom:  1.2rem;
+    box-shadow: 2px 6px;
+    width: 60%;
+    color: black;
+}
+.Instagram{
+    margin-bottom:  1.2rem;
+    box-shadow: 2px 6px;
+    width: 60%;
+    color: black;
+}
+.TikTok{
+    margin-bottom:  1.2rem;
+    box-shadow: 2px 6px;
+    width: 60%;
+    color: black;
+}
+.Facebook:hover {
+    background-color: blue;
+    color: white;
+    
+}
+.Telegram:hover {
+    background-color: blue;
+    color: white;
+    
+}
+.teleme:hover {
+    background-color: blue;
+    color: white;
+    
+}
+.Instagram:hover {
+    background-color: blue;
+    color: white;
+    
+}
+.TikTok:hover {
+    background-color: blue;
+    color: white;
+    
+}
+@keyframes running-color {
+    0% {
+        color: darkorchid;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: darkmagenta;
+    }
+    75% {
+        color: gray;
+    }
+    100% {
+        color: darkred;
+    }
+}
+
+.running-text {
+    animation: running-color 6s infinite;
+}
+
+
+
+  
+
